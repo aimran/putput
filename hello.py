@@ -14,6 +14,14 @@ def main():
     print "Hella World!"
     print "Hella Berkeley!"
 
+    nums = range(10)
+    for n in nums:
+        print n
+
+    p = range(30,40)
+    myd = dict(zip(nums, p))
+
+
 
 if __name__ == '__main__':
     main()
